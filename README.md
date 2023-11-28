@@ -10,7 +10,10 @@
 ## Configurando Cenário
 
 1. Abra o EVE-ng e crie uma nova topologia.
-2. Adicione três máquinas Linux: Broker MQTT, Dispositivo Lâmpada, Controlador.
+2. Adicione três máquinas Linux:
+- Broker MQTT
+- Dispositivo Lâmpada
+- Controlador
 
 ### Configurar Conexões
 
