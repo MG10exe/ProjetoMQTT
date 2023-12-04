@@ -73,12 +73,24 @@
 
 ### Configurar o Controlador
 
-1. Carregue um script no dispositivo designado como Controlador. Este script será responsável por enviar comandos para ligar ou desligar a lâmpada via MQTT.
-
+1. Carregue o script `controlador.sh` no dispositivo designado como Controlador. Este script será responsável por enviar comandos para ligar ou desligar a lâmpada via MQTT.
+2. Torne-o executável:
+     ```
+     $ sudo chmod +x controlador.sh
+     ```
+     
 ## Executar e Testar
 
 1. Inicie os dispositivos no EVE-ng.
-2. Execute o broker MQTT.
-3. Execute o código Python da lâmpada no dispositivo Lâmpada.
-4. Execute o script do Controlador para enviar comandos MQTT para ligar/desligar a lâmpada.
+2. Execute o código Python da lâmpada no dispositivo Lâmpada:
+   ```
+   $ python3 lampada.py
+   ```
+4. Execute o script do Controlador para enviar comandos MQTT para ligar/desligar a lâmpada:
+   ```
+   $ ./controlador.sh ligar
+   ```
+      ```
+   $ ./controlador.sh desligar
+   ```
 
