@@ -55,7 +55,17 @@
      ```
      $ sudo apt-get install python3-tk
      ```
-
+     
+   - Zlib:
+     ```
+     $ sudo apt-get install zlib1g-dev
+     ```
+     
+   - Jpeg:
+     ```
+     $ sudo apt-get install libjpeg-dev
+     ```
+     
    - Pillow:
      ```
      $ pip3 install Pillow
