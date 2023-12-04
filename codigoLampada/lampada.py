@@ -52,7 +52,7 @@ root = tk.Tk()
 root.title("Controle da Lâmpada")
 
 # Carregue a imagem da lâmpada desligada
-img_desligada = ImageTk.PhotoImage(Image.open("eve/Downloads/codigoLampada/imgs/lampada_desligada.png"))
+img_desligada = ImageTk.PhotoImage(Image.open("/home/eve/Downloads/codigoLampada/imgs/lampada_desligada.png"))
 
 # Crie um rótulo para exibir a imagem
 label_imagem = tk.Label(root, image=img_desligada)
