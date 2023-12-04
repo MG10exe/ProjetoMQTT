@@ -45,7 +45,7 @@ client.on_connect = on_connect
 client.on_message = on_message
 
 # Conecte-se ao broker MQTT
-client.connect("127.0.0.1", 1883)
+client.connect("127.0.0.1", 1883)  #substitua pelo ip do broker MQTT
 
 # Crie a janela Tkinter
 root = tk.Tk()
