@@ -1,7 +1,7 @@
 #!/bin/bash
 
-broker_address="<endereço_do_broker>"
-topic="<nome_do_tópico>"
+broker_address="<endereço_do_broker>"    # Substituir <endereço_do_broker> pelo ip do broker
+topic="/casa/quarto/lampada"
 
 ligar() {
     mosquitto_pub -h $broker_address -t $topic -m "ligar"
