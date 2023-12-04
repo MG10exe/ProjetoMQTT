@@ -38,16 +38,17 @@
 ### Adicione o Código Python da Lâmpada
 
 1. Crie um arquivo de texto e adicione o código Python da lâmpada no dispositivo designado como Lâmpada.
-2. Certifique-se de que as dependências estão instaladas no dispositivo.
+2. Adicione o endereço ip do broker MQTT na linha indicada no código da lâmpada. 
+3. Faça a instalação das seguintes dependências:
 
    - Pip:
      ```
-     $ apt install python-pip
+     $ apt install python3-pip
      ```
 
    - Paho:
      ```
-     $ pip install paho-mqtt
+     $ pip3 install paho-mqtt
      ```
 
    - Tkinter:
@@ -57,7 +58,7 @@
 
    - Pillow:
      ```
-     $ pip install Pillow
+     $ pip3 install Pillow
      ```
 
 ### Configurar o Controlador
