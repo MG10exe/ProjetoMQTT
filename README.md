@@ -4,8 +4,9 @@
 
 ## Adicionar a imagem do Ubuntu no EVE-ng
 
-1. Crie uma pasta em `/opt/unetlab/addons/qemu`. A pasta deve seguir o padrão: `linux-versão`.
-2. Dentro da pasta criada, adicione a imagem do Linux Ubuntu.
+1. Para o projeto foi utilizado a imagem do ubuntu-18.04-server disponível em: `https://drive.google.com/drive/mobile/folders/1ogOU6WkanlQmkOiSkXk0lEg9cE4o-3zB?usp=sharing `
+2. Crie uma pasta em `/opt/unetlab/addons/qemu`. A pasta deve seguir o padrão: `linux-versão`.
+3. Dentro da pasta criada, adicione a imagem linux que será utilizada.
 
 ## Configurando o Cenário
 
