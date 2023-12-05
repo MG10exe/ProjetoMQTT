@@ -7,7 +7,7 @@
 1. Crie uma pasta em `/opt/unetlab/addons/qemu`. A pasta deve seguir o padrão: `linux-versão`.
 2. Dentro da pasta criada, adicione a imagem do Linux Ubuntu.
 
-## Configurando Cenário
+## Configurando o Cenário
 
 1. Abra o EVE-ng e crie uma nova topologia.
 2. Adicione três máquinas Linux:
@@ -20,9 +20,9 @@
 1. Conecte os dispositivos usando links Ethernet.
 2. Certifique-se de que os dispositivos possam se comunicar entre si.
 
-### Configurar o Broker MQTT
+### Configurar a máquina Broker MQTT
 
-1. Instale e configure um broker MQTT no dispositivo designado como Broker MQTT. Utilize o Mosquitto.
+1. Instale e configure um broker MQTT no dispositivo designado como broker. Utilize o Mosquitto.
    
    - Instalação:
      ```
@@ -35,11 +35,12 @@
      $ sudo systemctl status mosquitto
      ```
 
-### Adicione o Código Python da Lâmpada
+### Configurar a máquina da lâmpada
 
-1. Crie um arquivo de texto e adicione o código Python da lâmpada no dispositivo designado como Lâmpada.
-2. Adicione o endereço ip do broker MQTT na linha indicada no código da lâmpada. 
-3. Faça a instalação das seguintes dependências:
+1. Carregue o código da lâmpada com as imagens no dispositivo designado como lâmpada.
+2. Adicione o endereço ip do broker MQTT na linha indicada no código da lâmpada.
+3. Ajuste o caminho para as imagens no código da lâmpada. 
+4. Faça a instalação das seguintes dependências:
 
    - Pip:
      ```
@@ -71,7 +72,7 @@
      $ pip3 install Pillow
      ```
 
-### Configurar o Controlador
+### Configurar a máquina do controlador
 
 1. Instale o pacote do mosquitto clientes:
    ```
