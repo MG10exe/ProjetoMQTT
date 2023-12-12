@@ -108,3 +108,5 @@ O MQTT (Message Queuing Telemetry Transport) é um protocolo de comunicação le
    $ ./controlador.sh desligar
    ```
 ![Sem título 6_1080p](https://github.com/MG10exe/ProjetoMQTT/assets/61914401/7fc19eb6-ac11-4434-b084-437bb21411c5)
+
+![PacotesMQTT](https://github.com/MG10exe/ProjetoMQTT/assets/61914401/c3913a55-23ca-427c-814c-222e64bd8944)
