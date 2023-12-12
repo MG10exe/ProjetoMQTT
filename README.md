@@ -1,14 +1,19 @@
 # Simulação do uso do protocolo MQTT no EVE-ng
 
+## O que é o MQTT?
+O MQTT (Message Queuing Telemetry Transport) é um protocolo de comunicação leve e eficiente projetado para facilitar a troca de mensagens em redes com recursos limitados. Sua simplicidade e confiabilidade o tornam uma escolha popular para aplicações na Internet das Coisas (IoT). O MQTT é baseado em uma arquitetura cliente-broker. O broker é o intermediário responsável por receber, rotear e entregar mensagens entre clientes.
+
 ## Configurando o EVE-NG
 
-## Adicionar a imagem do Ubuntu no EVE-ng
+### Adicionar a imagem do Ubuntu no EVE-ng
 
 1. Para o projeto foi utilizado a imagem do ubuntu-18.04-server disponível em: `https://drive.google.com/drive/mobile/folders/1ogOU6WkanlQmkOiSkXk0lEg9cE4o-3zB?usp=sharing `
 2. Crie uma pasta em `/opt/unetlab/addons/qemu`. A pasta deve seguir o padrão: `linux-versão`.
 3. Dentro da pasta criada, adicione a imagem linux que será utilizada.
 
 ## Configurando o Cenário
+
+![CenárioMQTT](https://github.com/MG10exe/ProjetoMQTT/assets/61914401/7094932a-bd4b-4681-9798-3f2bd4090b9f)
 
 1. Abra o EVE-ng e crie uma nova topologia.
 2. Adicione três máquinas Linux:
